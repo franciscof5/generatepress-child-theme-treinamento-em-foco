@@ -1,0 +1,48 @@
+/*
+Theme Name:     Treinamento em Foco Generatepress Child Theme
+Theme URI:      https://www.treinamentoemfoco.com.br
+Description:    Custom adaptation for project need
+Author:         Francisco Matelli Matulovic
+Author URI:     https://www.franciscomat.com
+Template:       generatepress
+Version:        0.1
+*/
+
+@import url("../generatepress/style.css");
+
+@font-face {
+    font-family: 'lobster';
+    src: url('fonts/lobster/lobster_1.3-webfont.eot');
+    src: url('fonts/lobster/lobster_1.3-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lobster/lobster_1.3-webfont.woff2') format('woff2'),
+         url('fonts/lobster/lobster_1.3-webfont.woff') format('woff'),
+         url('fonts/lobster/lobster_1.3-webfont.ttf') format('truetype'),
+         url('fonts/lobster/lobster_1.3-webfont.svg#lobster_1.3regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Forte';
+    src: url('fonts/ForteMT.woff2') format('woff2'),
+        url('fonts/ForteMT.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* NEW ONES*/
+h1, h2, h3 {
+	font-family: 'lobster' !important;
+}
+h1.main-title {
+	font-size: 100;
+}
+#primary-menu a {
+	font-family: 'lobster';
+	font-size: 20px;
+}
+.inside-site-info {
+	font-size:18px;
+}
+
