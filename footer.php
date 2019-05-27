@@ -21,7 +21,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 	// Get how many widgets to show
 	$widgets = generate_get_footer_widgets();
 	
-	if ( !empty( $widgets ) && 0 !== $widgets ) : 
+	if ( !empty( $widgets ) && 0 !== $widgets && true==false) : 
 	
 		// Set up the widget width
 		$widget_width = '';
@@ -106,12 +106,12 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 		</div>
 	<?php
 	endif;
-	do_action('generate_after_footer_widgets');
+	#do_action('generate_after_footer_widgets');
 	?>
 	<footer class="site-info" itemtype="http://schema.org/WPFooter" itemscope="itemscope">
 		<div class="inside-site-info grid-container grid-parent">
 			<p class="inside-site-info">
-				Avenida Paulista, 2092 - São Paulo
+				Estamos na cidade São Paulo/SP
 				<br />www.treinamentoemfoco.com.br
 				<!--p>Terms and Usage</p-->
 			</p>
