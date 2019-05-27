@@ -26,9 +26,13 @@ Version:        0.1
 /* NEW ONES*/
 h1, h2, h3 {
 	font-family: 'lobster' !important;
+    color: #FF5919 !important;
     text-align: center;
 }
-.main-title a{
+.inside-article a {
+    color: #FF5919 !important;
+}
+.main-title a {
     font-family: 'lobster' !important;
 	font-size: 100;
 }
@@ -55,4 +59,11 @@ h1, h2, h3 {
 }
 .inside-article {
     padding: 10px;
+}
+
+#site-navigation {
+    background: #FF5919;
+}
+#site-navigation .main-nav ul li[class*="current-menu-"] > a {
+    background: #D85E2F;
 }
