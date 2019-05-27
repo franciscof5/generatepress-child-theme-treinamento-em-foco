@@ -34,8 +34,10 @@ Version:        0.1
 /* NEW ONES*/
 h1, h2, h3 {
 	font-family: 'lobster' !important;
+    text-align: center;
 }
-h1.main-title {
+.main-title a{
+    font-family: 'lobster' !important;
 	font-size: 100;
 }
 #primary-menu a {
@@ -46,3 +48,12 @@ h1.main-title {
 	font-size:18px;
 }
 
+.inside-article {
+    padding: 0 !important;
+}
+.inside-article p {
+    text-align: justify;
+}
+#main, .site-main .entry-content, .entry-summary, .page-content {
+    margin: 0 !important;
+}

@@ -74,29 +74,18 @@ wp_enqueue_style('bootstrap-css', get_bloginfo("stylesheet_directory")."/assets/
 			<span class="sr-only"><?php _e("Next", "sis-foca-js"); ?></span>
 		</a>
 	</div>
-<div class="row stats-com">
-		<center><h2 class="forte"><i class="glyphicon glyphicon-signal"></i> Estatísticas da Comunidade</h2></center>
-		<ul class="list-group stats-group col-sm-6">
-			<li class="list-group-item active">
-				<span class="badge">76</span>
-				<i class="glyphicon glyphicon-user" aria-hidden="true"></i> &nbsp; Usuários Ativos			</li>
-			<li class="list-group-item active">
-				<span class="badge">9110</span>
-				<i class="glyphicon glyphicon-ok"></i> &nbsp; Pomodoros feitos			</li>
-			<li class="list-group-item active">
-				<span class="badge">4555 h</span>
-				<i class="glyphicon glyphicon-time"></i> &nbsp; Tempo cronometrado			</li>
-		</ul>
-		<ul class="list-group stats-group col-sm-6">
-			<li class="list-group-item active">
-				<span class="badge">527</span>
-				<i class="glyphicon glyphicon-tags" aria-hidden="true"></i> &nbsp; Tags dos projetos			</li>
-			<li class="list-group-item active">
-				<span class="badge">11</span>
-				<i class="glyphicon glyphicon-globe"></i> &nbsp; Cidades rankeadas			</li>
-			<li class="list-group-item active">
-				<span class="badge">5</span>
-				<i class="glyphicon glyphicon-text-background"></i> &nbsp; Traduções			</li>
+<div class="row">
+		<center><h2 class="forte"><i class="glyphicon glyphicon-signal"></i> Estatísticas</h2></center>
+		<ul class="col-sm-8 col-md-offset-2">
+			<li class="list-group-item">
+				<span class="badge">+250</span>
+				<i class="glyphicon glyphicon-user" aria-hidden="true"></i> &nbsp; Pessoas Treinadas</li>
+			<li class="list-group-item">
+				<span class="badge">+7</span>
+				<i class="glyphicon glyphicon-ok"></i> &nbsp; Palestras Realizadas</li>
+			<li class="list-group-item">
+				<span class="badge">2</span>
+				<i class="glyphicon glyphicon-globe"></i> &nbsp; Cidades Atendidas			</li>
 		</ul>
 		<script>
 			jQuery(document).ready(function() {
@@ -109,7 +98,7 @@ wp_enqueue_style('bootstrap-css', get_bloginfo("stylesheet_directory")."/assets/
 		</script>
 	</div>
 	<div id="primary" <?php generate_content_class();?>>
-		<main id="main" <?php generate_main_class(); ?>>
+		<main id="DDDmain" <?php #generate_main_class(); ?> class="col-sm-8 col-md-offset-2">
 		<?php do_action( 'generate_before_main_content' ); ?>
 		<?php if ( have_posts() ) : ?>
 
