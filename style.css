@@ -23,14 +23,6 @@ Version:        0.1
 
 }
 
-@font-face {
-    font-family: 'Forte';
-    src: url('fonts/ForteMT.woff2') format('woff2'),
-        url('fonts/ForteMT.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-}
-
 /* NEW ONES*/
 h1, h2, h3 {
 	font-family: 'lobster' !important;
@@ -49,11 +41,18 @@ h1, h2, h3 {
 }
 
 .inside-article {
-    padding: 0 !important;
+    padding: 10px 30px !important;
+    margin: 20px 0 !important;
 }
-.inside-article p {
+.front-page .inside-article p {
     text-align: justify;
 }
 #main, .site-main .entry-content, .entry-summary, .page-content {
     margin: 0 !important;
+}
+.wpcf7 {
+    text-align: center;
+}
+.inside-article {
+    padding: 10px;
 }
