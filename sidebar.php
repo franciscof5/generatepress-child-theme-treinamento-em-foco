@@ -25,6 +25,7 @@ endif;
 	<div class="inside-right-sidebar">
 		<?php do_action( 'generate_before_right_sidebar_content' ); ?>
 		<?php 
+		if(function_exists("smartlang_recent_posts_georefer_widget"))
 		smartlang_recent_posts_georefer_widget();
 		/*if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 			<?php if ( false == $navigation_active ) : ?>

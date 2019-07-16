@@ -21,59 +21,82 @@ wp_enqueue_script("jquery");
 wp_enqueue_script("bootstrap-js", get_bloginfo("stylesheet_directory")."/assets/bootstrap.min.js");
 wp_enqueue_style('bootstrap-css', get_bloginfo("stylesheet_directory")."/assets/bootstrap.min.css", __FILE__);
 ?>
+
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+		
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
 			
-		</ol>
-
-		<!-- Wrapper for slides -->
-		<div class="carousel-inner" role="listbox">
-			<div class="item active">
-				
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/slider-home/slide1.jpg" id="pomodoros-banner" alt="Calendar" class="img-responsive" style="width: 100%;">
-				<?php /*<div class="middle-right thumb-display thumb-display-black">
-					<p><i class="glyphicon glyphicon-calendar"></i> <?php _e("Perfomance Calendar", "sis-foca-js"); ?></p>
-					<p class="hidden-xs"><?php _e("shows tasks you done", "sis-foca-js"); ?></p> 
-				</div>*/ ?>
-			</div>
-			<div class="item">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/slider-home/slide2.jpg" id="pomodoros-banner" alt="Ranking" class="img-responsive" style="width: 100%;">
-				<?php /*<div class="middle-left thumb-display thumb-display-black">
-					<p><i class="glyphicon glyphicon-list"></i> <?php _e("Grow in Ranking", "sis-foca-js"); ?></p>
-					<p class="hidden-xs"><?php _e("and get more productive", "sis-foca-js"); ?></p> 
-				</div>*/ ?>
-			</div>
-			<div class="item">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/slider-home/slide3.jpg" id="pomodoros-banner" alt="Tasks" class="img-responsive" style="width: 100%;">
-				<?php /*<div class="middle-right thumb-display thumb-display-black">
-					<p><i class="glyphicon glyphicon-tags"></i> <?php _e("Mind blown reports", "sis-foca-js"); ?></p>
-					<p class="hidden-xs"><?php _e("to check time usage", "sis-foca-js"); ?></p> 
-				</div>*/ ?>
-			</div>
-			<div class="item">
-				<img src="<?php bloginfo('stylesheet_directory'); ?>/slider-home/slide4.jpg" id="pomodoros-banner" alt="Support System" class="img-responsive" style="width: 100%;">
-				<?php /*<div class="middle-right thumb-display thumb-display-black">
-					<p><i class="glyphicon glyphicon-question-sign"></i> <?php _e("Open a ticket", "sis-foca-js"); ?></p>
-					<p class="hidden-xs"><?php _e("and get help", "sis-foca-js"); ?></p> 
-				</div>*/ ?>
-			</div>
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/slider-home/slide1.jpg" id="pomodoros-banner" alt="Calendar" class="img-responsive" style="width: 100%;">
+			<?php /*<div class="middle-right thumb-display thumb-display-black">
+				<p><i class="glyphicon glyphicon-calendar"></i> <?php _e("Perfomance Calendar", "sis-foca-js"); ?></p>
+				<p class="hidden-xs"><?php _e("shows tasks you done", "sis-foca-js"); ?></p> 
+			</div>*/ ?>
 		</div>
-
-		<!-- Controls -->
-		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-			<span class="sr-only"><?php _e("Previous", "sis-foca-js"); ?></span>
-		</a>
-		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-			<span class="sr-only"><?php _e("Next", "sis-foca-js"); ?></span>
-		</a>
+		<div class="item">
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/slider-home/slide2.jpg" id="pomodoros-banner" alt="Ranking" class="img-responsive" style="width: 100%;">
+			<?php /*<div class="middle-left thumb-display thumb-display-black">
+				<p><i class="glyphicon glyphicon-list"></i> <?php _e("Grow in Ranking", "sis-foca-js"); ?></p>
+				<p class="hidden-xs"><?php _e("and get more productive", "sis-foca-js"); ?></p> 
+			</div>*/ ?>
+		</div>
+		<div class="item">
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/slider-home/slide3.jpg" id="pomodoros-banner" alt="Tasks" class="img-responsive" style="width: 100%;">
+			<?php /*<div class="middle-right thumb-display thumb-display-black">
+				<p><i class="glyphicon glyphicon-tags"></i> <?php _e("Mind blown reports", "sis-foca-js"); ?></p>
+				<p class="hidden-xs"><?php _e("to check time usage", "sis-foca-js"); ?></p> 
+			</div>*/ ?>
+		</div>
+		<div class="item">
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/slider-home/slide4.jpg" id="pomodoros-banner" alt="Support System" class="img-responsive" style="width: 100%;">
+			<?php /*<div class="middle-right thumb-display thumb-display-black">
+				<p><i class="glyphicon glyphicon-question-sign"></i> <?php _e("Open a ticket", "sis-foca-js"); ?></p>
+				<p class="hidden-xs"><?php _e("and get help", "sis-foca-js"); ?></p> 
+			</div>*/ ?>
+		</div>
 	</div>
+
+	<!-- Controls -->
+	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only"><?php _e("Previous", "sis-foca-js"); ?></span>
+	</a>
+	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only"><?php _e("Next", "sis-foca-js"); ?></span>
+	</a>
+</div>
+
+<div class="row" style="margin-top:40px;">
+	<div class="col-sm-8 col-md-offset-2">
+		<div class="col-md-3 blob">
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/img/icons8-treinamento-100.png" >
+			<h4>Palestra</h4>
+		</div>
+		<div class="col-md-3 blob">
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/img/icons8-licenca-100.png" >
+			<h4>Cursos</h4>
+		</div>
+		<div class="col-md-3 blob">
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/img/icons8-placa-de-sinalizacao-100.png" >
+			<h4>Acompanhamento</h4>
+		</div>
+		<div class="col-md-3 blob">
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/img/icons8-smartphone-100.png" >
+			<h4>EAD</h4>
+		</div>
+	</div>
+</div>
+
 <div class="row">
 		<center><h2 class="forte"><i class="glyphicon glyphicon-signal"></i> Estatísticas</h2></center>
 		<ul class="col-sm-8 col-md-offset-2">

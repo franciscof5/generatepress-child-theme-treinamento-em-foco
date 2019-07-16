@@ -24,10 +24,16 @@ Version:        0.1
 }
 
 /* NEW ONES*/
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: 'lobster' !important;
     color: #FF5919 !important;
     text-align: center;
+}
+.blob {
+    text-align: center;
+}
+.blob img {
+    margin: 0 auto;
 }
 .inside-article a {
     color: #FF5919 !important;

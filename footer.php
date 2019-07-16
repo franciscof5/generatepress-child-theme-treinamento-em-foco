@@ -115,8 +115,10 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 				<br />www.treinamentoemfoco.com.br
 				<!--p>Terms and Usage</p-->
 			</p>
-			
 		</div>
+
+		<h3><?php _e("Sponsored by", "sis-foca-js"); ?></h3>
+		<p><?php if(function_exists("show_sponsor")) echo show_sponsor("box-float-center", true); ?></p>
 	</footer><!-- .site-info -->
 	<?php do_action( 'generate_after_footer_content' ); ?>
 </div><!-- .site-footer -->
