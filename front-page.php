@@ -63,6 +63,9 @@ wp_enqueue_style('bootstrap-css', get_bloginfo("stylesheet_directory")."/assets/
 				<p class="hidden-xs"><?php _e("and get help", "sis-foca-js"); ?></p> 
 			</div>*/ ?>
 		</div>
+		<div class="item">
+			<img src="<?php bloginfo('stylesheet_directory'); ?>/slider-home/slide5.jpg" id="pomodoros-banner" alt="Palestra Skill Itapetininga" class="img-responsive" style="width: 100%;">
+		</div>
 	</div>
 
 	<!-- Controls -->
