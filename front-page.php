@@ -16,6 +16,22 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 
 get_header(); ?>
 
+<div class="row">
+	<center><iframe width="560" height="315" src="https://www.youtube.com/embed/2IVrCxG1rW8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</div>
+
+<div class="row">
+	<h2>O treinamento que vai ajudar você a:</h2>
+	<ol style="color: #000; list-style: none; font-size: 24px; font-family: lobster;">
+		<li><i class="glyphicon glyphicon-dashboard"></i> Ser mais produtivo!</li>
+		<li style="text-align: right;">Passar no vestibular? <i class="glyphicon glyphicon-education"></i></li>
+		<li><i class="glyphicon glyphicon-flash"></i> Aprender um novo idioma em pouco tempo!</li>
+		<li style="text-align: right;">Controlar tempo de funcionários! <i class="glyphicon glyphicon-time"></i></li>
+	</ol>
+	<h2>Descubra nosso exclusivo método:</h2>
+	<h3><a href="/contato"><i class="glyphicon glyphicon-envelope"></i> Entre em contato agora mesmo!</a></h3>
+</div>
+
 <?php #do_shortcode('[rev_slider alias="slider-home"]'); 
 wp_enqueue_script("jquery");
 wp_enqueue_script("bootstrap-js", get_bloginfo("stylesheet_directory")."/assets/bootstrap.min.js");
