@@ -111,7 +111,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 	<footer class="site-info" itemtype="http://schema.org/WPFooter" itemscope="itemscope">
 		<div class="inside-site-info grid-container grid-parent">
 			<p class="inside-site-info">
-				Estamos na cidade São Paulo/SP
+				Estamos online
 				<br />www.treinamentoemfoco.com.br
 				<!--p>Terms and Usage</p-->
 			</p>

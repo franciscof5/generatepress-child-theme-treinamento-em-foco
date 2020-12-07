@@ -17,12 +17,12 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 get_header(); ?>
 
 <div class="row">
-	<center><iframe width="560" height="315" src="https://www.youtube.com/embed/2IVrCxG1rW8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/2IVrCxG1rW8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="row">
 	<h2>O treinamento que vai ajudar você a:</h2>
-	<ol style="color: #000; list-style: none; font-size: 24px; font-family: lobster;">
+	<ol style="color: #000; list-style: none; font-size: 24px; font-family: lobster; width: 100%;">
 		<li><i class="glyphicon glyphicon-dashboard"></i> Ser mais produtivo!</li>
 		<li style="text-align: right;">Passar no vestibular? <i class="glyphicon glyphicon-education"></i></li>
 		<li><i class="glyphicon glyphicon-flash"></i> Aprender um novo idioma em pouco tempo!</li>
@@ -117,7 +117,7 @@ wp_enqueue_style('bootstrap-css', get_bloginfo("stylesheet_directory")."/assets/
 </div>
 
 <div class="row">
-		<center><h2 class="forte"><i class="glyphicon glyphicon-signal"></i> Estatísticas</h2></center>
+		<h2 class="forte"><i class="glyphicon glyphicon-signal"></i> Estatísticas</h2>
 		<ul class="col-sm-8 col-md-offset-2">
 			<li class="list-group-item">
 				<span class="badge">+250</span>
